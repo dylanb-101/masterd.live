@@ -1,5 +1,5 @@
 <script>
-
+import Nav from "../components/nav.svelte"
 </script>
 
 <svlete:head>
@@ -7,11 +7,16 @@
 </svlete:head>
 
 <body class="bg-gray-800 font-azert-mono">
+    <!--my hello and waving hand emoji-->
     <div class="flex">
         <p class="text-slate-50 mt-24 ml-24 text-4xl font-azert-mono inline-flex">Hello BBG! </p> 
         <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/282/waving-hand_1f44b.png" alt="waving hand" class=" h-10 inline-flex mt-24 ml-4 wave">
     </div>
-    
+    <!--intro paragraph-->
+    <div class=" mt-14 ml-24 w-auto h-auto mr-16">
+        <p class="text-slate-50 mr-16">This is my website pretty cool eh? I'm going to work on a bunch of games that I can host like Uno, cards, and other games that are annoying to play when your not with friends in real life. I'm also going to work on an admin page for my discord bot, and my rasberry pi so I can access all the files easily🥳. If you have any other things youd like to see me add let me know!</p>
+    </div>
+
 </body>
 
 
